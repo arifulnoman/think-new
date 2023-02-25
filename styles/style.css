@@ -7,12 +7,43 @@
     font-family: 'Work Sans', sans-serif;
 }
 
+input {
+    border: 1px solid #F3F3F3;
+    margin: 20px 0;
+    padding: 15px;
+    border-radius: 3px;
+    background-color: #151414;
+    color: #F3F3F3;
+    width: 250px;
+}
+
+::placeholder {
+    color: #F3F3F3;
+    font-size: 12px;
+}
+
+i {
+    color: #16D887;
+}
+
 img {
     height: 500px;
 }
 
 li {
     list-style: none;
+}
+
+footer {
+    display: flex;
+    background-color: #151414;
+    padding: 100px 200px;
+    color: white;
+    gap: 200px;
+}
+
+footer p {
+    font-size: 12px;
 }
 
 /* banner designs */
@@ -54,12 +85,14 @@ li {
 
 .article {
     display: flex;
-    margin: 150px;
+    margin: 100px 200px;
+    align-items: center;
 }
 
 .details {
-    padding-top: 100px;
-    padding-left: 100px;
+    padding: 100px;
+    line-height: 25px;
+
 }
 
 .article-title {
@@ -83,3 +116,83 @@ ul {
     padding-left: 0;
 }
 
+/* section styles */
+
+.section-title {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.skill-icon {
+    height: 60px;
+    width: 60px;
+}
+
+.skill-container {
+    margin: 0 150px;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.skill-title {
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 15px;
+}
+
+.skill-description {
+    font-size: 14px;
+    font-weight: 300px;
+    margin-top: 10px;
+    color: #444343;
+}
+
+/* secondary banner styles */
+
+.secondary-banner {
+    margin: 100px 200px;
+    padding: 70px 80px;
+    height: 100px;
+    background-image: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%),url('../images/watch.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 5px;
+}
+
+.secondary-banner-title {
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    width: 300px;
+}
+
+/* footer styles */
+
+.left-footer {
+    width: 40%;
+    line-height: 18px;
+}
+
+.footer-title {
+    font-size: 30px;
+    margin-bottom: 18px;
+}
+
+.icon-container {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.icon {
+    height: 30px;
+    width: 30px;
+}
+
+.right-footer {
+    padding-left: 50px;
+}
